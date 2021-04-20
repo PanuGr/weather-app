@@ -2,8 +2,7 @@
 const lang = navigator.language;
 const user = document.querySelector("input");
 const search = document.getElementsByTagName("i")[1];
-//const key = import.meta.env.SNOWPACK_PUBLIC_KEY; 
-const key='a07417019f57f1221a75fe34be7be34c';
+const key = import.meta.env.SNOWPACK_PUBLIC_WEATHER_KEY; 
 const showForecast = document.getElementsByTagName('section')[1];
 const showWeatherNow = document.getElementsByTagName('section')[0];
 const dropdown = document.querySelector(".dropdown-menu");
